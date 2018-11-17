@@ -1,0 +1,74 @@
+
+body{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+background: #efc5ca; /* Old browsers */
+background: -moz-linear-gradient(top, #efc5ca 0%, #d24b5a 50%, #ba2737 51%, #f18e99 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #efc5ca 0%,#d24b5a 50%,#ba2737 51%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
+}
+
+#logo > a > img{
+    width: 70px;
+    height: 70px;
+margin: 10px;
+}
+
+.menu > h1{
+    font-family: 'Frijole', cursive;
+    color: aliceblue;
+}
+
+.menu > div > ul{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    color: aliceblue;
+}
+.menu > div > ul > li{
+padding-right: 20px;
+font-weight: bold;
+}
+.menu > div > ul > li:hover{
+    color: yellow;
+    }
+
+
+    .jogo{
+        border:solid 2px;
+        width: 600px;
+        height: 500px;
+    }
+    main{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right top, #ffffff, #dcdafa, #b2b8f6, #7d98f2, #127bee);
+    } 
+
+    .linha{
+        display: flex;
+        height:166px;
+        border-bottom:solid 1px;
+    }
+    .casa{
+        border: solid 1px;
+        height: 166px;
+        width: 200px;
+        float: left;
+    }
+    .casa{
+        display: flex;
+        justify-content: center;
+       
+    }
+.casa > img{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
