@@ -24,20 +24,6 @@ margin: 10px;
     color: aliceblue;
 }
 
-.menu > div > ul{
-    display: flex;
-    padding: 10px;
-    list-style: none;
-    color: aliceblue;
-}
-.menu > div > ul > li{
-padding-right: 20px;
-font-weight: bold;
-}
-.menu > div > ul > li:hover{
-    color: yellow;
-    }
-
 
     .jogo{
         border:solid 2px;
@@ -47,7 +33,7 @@ font-weight: bold;
     main{
         padding: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background-image: linear-gradient(to right top, #ffffff, #dcdafa, #b2b8f6, #7d98f2, #127bee);
     } 
 
@@ -67,8 +53,16 @@ font-weight: bold;
         justify-content: center;
        
     }
-.casa > img{
+ img{
     width: 120px;
     height: 120px;
     margin: 20px;
+}
+#jogador{
+    display: flex;
+    font-weight: bold;
+}
+
+#jogador > p {
+    padding-top: 45px;
 }
